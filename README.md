@@ -20,6 +20,9 @@ Second Method (Preset groups)
 
 This will ask for your login information again with the option to load data. When load data option is chosen, an excel file is loaded. The excel file allows posts to become more complex and personalized.
 
+
+The following table shows how the the excel file is set up for this personalization. You must compile the group's links into the url column (with mbasic added to the front of the url) as well as the name of the group. Inside the post you must include the structure of your post with curly brackets inclosing the column name that you want to replace. This makes using the same post for each group with specific names easy to generalize to many posts.
+
 | group      | url                                                          | post                                                                                                           | entry0 | entry1            |
 |------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|--------|-------------------|
 | TestGroup1 | https://mbasic.facebook.com/groups/567925213654496?refid=27  | this is a loading test post for {entry0} and to see that it properly adds the other entries like {entry1}      | GROUP1 | this one here pal |
