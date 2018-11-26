@@ -33,12 +33,14 @@ The following table shows how the the excel file is set up for this personalizat
 ## Ryan's - TODO
 
 Feature List:
+
 #####can create “group list”
 - name list
 - enter fb credentials
 - return selectable list of groups
 - select groups to add
 - save list to DB
+
 #####can start a “promotion” instance
 - enter FB URL
 - select group list
@@ -46,6 +48,7 @@ Feature List:
 - Share event to group via selenium
 - Check if posted/ sent to admin
 - via fb page check or activity log
+
 #####update groups
 - checks fb groups and reported if any new groups were added, renamed (verified by url), or deleted
 - option to add, rename, delete
